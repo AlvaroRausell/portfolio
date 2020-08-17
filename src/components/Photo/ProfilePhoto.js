@@ -1,6 +1,5 @@
 import React from "react"
 import Photo from "./Photo"
-import colours from "../../colours.json"
 import { useMediaQuery } from "react-responsive"
 
 export default props => {

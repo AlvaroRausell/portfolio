@@ -3,7 +3,7 @@ import Particles from "../P5/Particles"
 import { useMediaQuery } from "react-responsive"
 import Home from "./Home"
 import Projects from "./Projects"
-import { Link, animateScroll as scroll, Element } from "react-scroll"
+import { Element } from "react-scroll"
 import Navbar from "../components/Navbar"
 
 export default () => {
@@ -13,7 +13,6 @@ export default () => {
   return (
     <>
       <Navbar></Navbar>
-
       <div
         style={{
           position: "absolute",
