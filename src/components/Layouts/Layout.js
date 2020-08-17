@@ -6,7 +6,7 @@ export default props => {
       style={{
         display: "flex",
         alignItems: "center",
-        justifyContent: "center",
+        // justifyContent: "center",
         flexDirection: "column",
         margin: 0,
         border: 0,
