@@ -1,9 +1,6 @@
 import React from "react"
-import profilePicture from "../images/profile.jpg"
 import FullTitle from "../components/text/FullTitle"
-import colours from "../colours.json"
 import HorizontalGrid from "../components/Layouts/HorizontalGrid"
-import ProfilePhoto from "../components/Photo/ProfilePhoto"
 import { useMediaQuery } from "react-responsive"
 import VerticalGrid from "../components/Layouts/VerticalGrid"
 import Layout from "../components/Layouts/Layout"
@@ -40,25 +37,15 @@ export default function Home() {
           {isDesktopOrLaptop ? (
             <>
               <HorizontalGrid>
-                <ProfilePhoto src={profilePicture}></ProfilePhoto>
-                <FullTitle title="Álvaro Rausell">
-                  3rd year computer science student at
-                  <br />
-                  <span style={{ color: colours.accent }}>
-                    King's College London
-                  </span>
+                <FullTitle title="404">
+                  Can't find the page you are looking for :(
                 </FullTitle>
               </HorizontalGrid>
             </>
           ) : (
             <VerticalGrid>
-              <ProfilePhoto src={profilePicture}></ProfilePhoto>
-              <FullTitle title="Álvaro Rausell">
-                3rd year computer science student at
-                <br />
-                <span style={{ color: colours.accent }}>
-                  King's College London
-                </span>
+              <FullTitle title="404">
+                Can't find the page you are looking for :(
               </FullTitle>
             </VerticalGrid>
           )}

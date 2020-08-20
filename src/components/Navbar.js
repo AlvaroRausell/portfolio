@@ -6,11 +6,12 @@ import colours from "../colours.json"
 const Navbar = styled.div`
   position: sticky;
   margin: 0;
-  padding-top: 15px;
   left: 25%;
-  height: 40px;
+  padding: 0;
   top: 0;
   background-color: white;
+  height: 10vh;
+  color: ${colours.secondary};
   box-shadow: 0px 10px 28px -11px rgba(0, 0, 0, 0.75);
   .active {
     color: ${colours.accent};
@@ -21,14 +22,14 @@ export default props => {
   return (
     <Navbar>
       <HorizontalGrid>
-        <Link to="Home" spy={true} smooth={true} offset={-70} duration={500}>
+        <Link to="Home" spy={true} smooth={true} offset={-100} duration={500}>
           <p>Home</p>
         </Link>
         <Link
           to="Projects"
           spy={true}
           smooth={true}
-          offset={-70}
+          offset={-100}
           duration={500}
         >
           <p>Projects</p>
