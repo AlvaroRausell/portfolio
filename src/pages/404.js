@@ -4,6 +4,7 @@ import HorizontalGrid from "../components/Layouts/HorizontalGrid"
 import { useMediaQuery } from "react-responsive"
 import VerticalGrid from "../components/Layouts/VerticalGrid"
 import Layout from "../components/Layouts/Layout"
+import Particles from "../P5/Particles"
 
 export default function Home() {
   const isDesktopOrLaptop = useMediaQuery({
@@ -11,6 +12,19 @@ export default function Home() {
   })
   return (
     <Layout>
+      <div
+        style={{
+          position: "absolute",
+          zIndex: "-1",
+
+          margin: 0,
+          padding: 0,
+          bottom: 0,
+          overflow: "hidden",
+        }}
+      >
+        <Particles numParticles={isDesktopOrLaptop ? 200 : 50}></Particles>
+      </div>
       <div
         style={{
           height: "100%",

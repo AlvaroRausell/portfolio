@@ -9,7 +9,7 @@ export default props => {
         alignItems: "center",
         height: "100%",
         width: "100%",
-        padding: "2%",
+        // padding: "2%",
         // backgroundColor: "red",
       }}
     >

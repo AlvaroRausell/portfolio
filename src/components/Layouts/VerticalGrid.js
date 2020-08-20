@@ -8,7 +8,6 @@ export default props => {
         flexDirection: "column",
         justifyContent: "center",
         alignItems: "center",
-        padding: "3%",
         width: "100%",
       }}
     >

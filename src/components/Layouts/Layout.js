@@ -8,8 +8,7 @@ export default props => {
         alignItems: "center",
         // justifyContent: "center",
         flexDirection: "column",
-        margin: 0,
-        border: 0,
+        margin: "0% 0 0% 0",
         height: "100vh",
       }}
     >
