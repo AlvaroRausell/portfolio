@@ -1,26 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Particles from "./P5/Particles";
+import Page from "./Page";
+import { useMediaQuery } from "react-responsive";
 
-function App() {
+export default () => {
+  const isDesktopOrLaptop = useMediaQuery({
+    query: "(min-device-width: 900px)",
+  });
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    <>
+      <div
+        style={{
+          position: "absolute",
+          zIndex: "-1",
 
-export default App;
+          margin: 0,
+          padding: 0,
+          bottom: 0,
+          overflow: "hidden",
+        }}
+      >
+        <Particles numParticles={isDesktopOrLaptop ? 200 : 50}></Particles>
+      </div>
+      <Page></Page>
+    </>
+  );
+};
