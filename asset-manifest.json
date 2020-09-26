@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.26d20e0a.chunk.css",
+    "main.js": "/static/js/main.ae40e2ae.chunk.js",
+    "main.js.map": "/static/js/main.ae40e2ae.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
+    "static/css/2.4f4e799b.chunk.css": "/static/css/2.4f4e799b.chunk.css",
+    "static/js/2.8080d475.chunk.js": "/static/js/2.8080d475.chunk.js",
+    "static/js/2.8080d475.chunk.js.map": "/static/js/2.8080d475.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.419db21984ac172dd39e78e9d31e181d.js": "/precache-manifest.419db21984ac172dd39e78e9d31e181d.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.4f4e799b.chunk.css.map": "/static/css/2.4f4e799b.chunk.css.map",
+    "static/css/main.26d20e0a.chunk.css.map": "/static/css/main.26d20e0a.chunk.css.map",
+    "static/js/2.8080d475.chunk.js.LICENSE.txt": "/static/js/2.8080d475.chunk.js.LICENSE.txt",
+    "static/media/Alpaca.png": "/static/media/Alpaca.df48559c.png",
+    "static/media/aboutme.jpg": "/static/media/aboutme.3e887ff2.jpg",
+    "static/media/btd.jpeg": "/static/media/btd.d3ae7ba7.jpeg",
+    "static/media/devpost.png": "/static/media/devpost.f0f8a0e2.png",
+    "static/media/easyNakup.png": "/static/media/easyNakup.8a1ad1b3.png",
+    "static/media/git.png": "/static/media/git.a07c1041.png",
+    "static/media/hacktrain.png": "/static/media/hacktrain.5b8f25e2.png",
+    "static/media/iotlab.jpg": "/static/media/iotlab.ef44b758.jpg",
+    "static/media/linkedin.png": "/static/media/linkedin.6bb36b30.png",
+    "static/media/profile.jpg": "/static/media/profile.bca22963.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.19ccc7f6.js",
+    "static/css/2.4f4e799b.chunk.css",
+    "static/js/2.8080d475.chunk.js",
+    "static/css/main.26d20e0a.chunk.css",
+    "static/js/main.ae40e2ae.chunk.js"
+  ]
+}
