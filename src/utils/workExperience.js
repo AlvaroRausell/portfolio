@@ -30,7 +30,7 @@ export default [
     date: "June 2019 - August 2020",
   },
   {
-    company: "IntoUniversity",
+    company: "Into University",
     title: "Volunteer Student Mentor",
     date: "September 2017 - June 2018",
     jobDescription: [
