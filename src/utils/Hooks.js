@@ -3,7 +3,7 @@ import { useMediaQuery } from "react-responsive";
 
 export default (props) => {
   const isDesktopOrLaptop = useMediaQuery({
-    query: "(min-width: 900px)",
+    query: "(min-width: 1000px)",
   });
   const isUltrawide = useMediaQuery({
     query: "(min-width: 1500px)",

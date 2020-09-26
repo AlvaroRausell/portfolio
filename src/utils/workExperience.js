@@ -1,0 +1,42 @@
+export default [
+  {
+    company: "IBM",
+    title: "Cloud Infrastructure Engineer",
+    jobDescription: [
+      "Worked on setting up the development infrastructure for IBM Integration Bus and App Connect Enterprise. Maintained closed communication with developers to adapt to their requirements. Automated and documented these processes.",
+      "Aside from my main role, I worked on several side-projects. These include co-leading a group of more than 5 people in a project to create a self-service product showcase space for clients, presenting the IoT Lab to visitors - schools, universities, and clients, and developing an IoT Christmas Tree for the Hursley Village.",
+    ],
+    images: [require("../images/iotlab.jpg")],
+    skills: [
+      "Perl",
+      "Bash",
+      "Python",
+      "React.js",
+      "Ansible",
+      "HP/UX",
+      "AIX",
+      "zLinux",
+      "MQTT",
+      "ESP32",
+      "IoT",
+      "Public Speaking",
+      "xLinux",
+      "Watson Assistant",
+      "Node-RED",
+      "Leadership",
+      "Time Management",
+      "Communication",
+    ],
+    date: "June 2019 - August 2020",
+  },
+  {
+    company: "IntoUniversity",
+    title: "Volunteer Student Mentor",
+    date: "September 2017 - June 2018",
+    jobDescription: [
+      "Mentored a Year 12 student with learning difficulties. Employed different techniques to help him through the study process.",
+      "Nominated Volunteer of the Year",
+    ],
+    skills: ["Teaching", "Time Management", "Communication"],
+  },
+];

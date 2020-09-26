@@ -1,6 +1,6 @@
-import React from "react"
+import React from "react";
 
-export default props => {
+export default (props) => {
   return (
     <div
       style={{
@@ -9,10 +9,11 @@ export default props => {
         // justifyContent: "center",
         flexDirection: "column",
         margin: "0% 0 0% 0",
-        height: "100vh",
+        // height: "100vh",
+        ...props.style,
       }}
     >
       {props.children}
     </div>
-  )
-}
+  );
+};

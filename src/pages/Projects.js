@@ -27,33 +27,35 @@ function Projects(props) {
         style={{
           height: "100%",
           width: "100%",
-          backgroundColor: colours.accent,
+          backgroundColor: colours.secondary,
           textAlign: "center",
         }}
       >
         <Title style={{ color: "white" }}>Projects</Title>
-        <Carousel activeIndex={props.activeIndex} onSlide={props.onSlide}>
-          {console.log(projectChunks)}
-          {projectChunks.map((chunk) => {
-            return (
-              <Carousel.Item>
-                <HorizontalGrid>
-                  {chunk.map((project) => {
-                    return (
-                      <Preview
-                        img={project.img}
-                        title={project.title}
-                        description={project.description}
-                        git={project.git}
-                        devpost={project.devpost}
-                      ></Preview>
-                    );
-                  })}
-                </HorizontalGrid>
-              </Carousel.Item>
-            );
-          })}
-        </Carousel>
+        {projectChunks.map((chunk) => {
+          return (
+            <HorizontalGrid>
+              {chunk.map((project) => {
+                return (
+                  <Preview
+                    showModal={props.showModal}
+                    hideModal={props.hideModal}
+                    img={project.img}
+                    title={project.title}
+                    description={project.description}
+                    git={project.git}
+                    devpost={project.devpost}
+                    info={project.info}
+                    key={project.name}
+                    tags={project.tags}
+                    awards={project.awards}
+                    otherDistinctions={project.otherDistinctions}
+                  ></Preview>
+                );
+              })}
+            </HorizontalGrid>
+          );
+        })}
         {/* </div> */}
       </div>
     </Layout>

@@ -4,11 +4,13 @@ html {
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  object-fit: scale-down;
-  height: 50px;
-  width: 50px;
   background-image: none;
-  /* background-color: red; */
+  background-color: red;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  height: 0;
+  width: 0;
 }
 .carousel-control-next-icon {
   /* background-image: url("../images/next.png"); */

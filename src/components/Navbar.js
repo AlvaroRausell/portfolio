@@ -10,20 +10,34 @@ const Navbar = styled.div`
   padding: 0;
   top: 0;
   background-color: white;
-  height: 10vh;
+  height: 4em;
   color: ${colours.secondary};
   box-shadow: 0px 10px 28px -11px rgba(0, 0, 0, 0.75);
   .active {
     color: ${colours.accent};
+    font-weight: bold;
   }
   z-index: 1;
+  & p {
+    cursor: pointer;
+  }
+  p {
+    margin: auto;
+  }
 `;
 
 export default (props) => {
   return (
     <Navbar>
-      <HorizontalGrid style={{ alignItems: "center" }}>
-        <Link to="Home" spy={true} smooth={true} offset={-100} duration={500}>
+      <HorizontalGrid style={{ alignItems: "center", height: "100%" }}>
+        <Link
+          to="Home"
+          spy={true}
+          smooth={true}
+          offset={-100}
+          duration={500}
+          activeClass="active"
+        >
           <p>Home</p>
         </Link>
         <Link
@@ -36,8 +50,7 @@ export default (props) => {
           <p>Projects</p>
         </Link>
         <Link
-          activeClass="active"
-          to="Projects"
+          to="About Me"
           spy={true}
           smooth={true}
           offset={-70}
@@ -45,23 +58,8 @@ export default (props) => {
         >
           <p>About Me</p>
         </Link>{" "}
-        <Link
-          to="Projects"
-          spy={true}
-          smooth={true}
-          offset={-70}
-          duration={500}
-        >
-          <p>Blog</p>
-        </Link>{" "}
-        <Link
-          to="Projects"
-          spy={true}
-          smooth={true}
-          offset={-70}
-          duration={500}
-        >
-          <p>Contact</p>
+        <Link to="Contact" spy={true} smooth={true} offset={-70} duration={500}>
+          <p>Contact Me</p>
         </Link>
       </HorizontalGrid>
     </Navbar>

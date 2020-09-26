@@ -21,7 +21,7 @@ function Home() {
         } 0`,
       }}
     >
-      <Layout>
+      <Layout style={{ height: "100vh" }}>
         <div
           style={{
             height: "100%",
@@ -49,7 +49,7 @@ function Home() {
             {isDesktopOrLaptop ? (
               <>
                 <div style={{ padding: "2%", height: "100%", width: "100%" }}>
-                  <HorizontalGrid>
+                  <HorizontalGrid style={{ height: "100%" }}>
                     <ProfilePhoto src={profilePicture}></ProfilePhoto>
                     <FullTitle title="Álvaro Rausell">
                       3rd year computer science student at

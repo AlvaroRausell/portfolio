@@ -6,8 +6,8 @@ export default (props) => {
       style={{
         display: "flex",
         justifyContent: "space-around",
-        height: "100%",
         width: "100%",
+
         // padding: "2%",
         // backgroundColor: "red",
         ...props.style,

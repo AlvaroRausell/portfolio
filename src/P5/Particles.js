@@ -5,10 +5,8 @@ export default (props) => {
   let particles = [];
   let MIN_DISTANCE = 3;
   let MAX_DISTANCE = 50;
-  let p5js = undefined;
   const setup = (p5, canvasParentRef) => {
     // console.log()
-    p5js = p5;
     canvasParentRef.setAttribute("height", "100%");
     p5.createCanvas(window.innerWidth - 20, window.innerHeight - 20).parent(
       canvasParentRef
