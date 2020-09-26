@@ -32,7 +32,7 @@ export default (props) => {
           textAlign: "center",
         }}
       >
-        <Subtitle style={{ color: "white" }}>Contact Me</Subtitle>
+        <Subtitle style={{ color: "white" }}>Contact</Subtitle>
         <Subtitle style={{ color: "#e8e8e8" }}></Subtitle>
         <Text>
           Feel free to get in touch via e-mail at:{" "}

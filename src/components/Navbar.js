@@ -44,7 +44,7 @@ export default (props) => {
           to="Projects"
           spy={true}
           smooth={true}
-          offset={-100}
+          offset={-65}
           duration={500}
         >
           <p>Projects</p>
@@ -53,13 +53,13 @@ export default (props) => {
           to="About Me"
           spy={true}
           smooth={true}
-          offset={-70}
+          offset={-65}
           duration={500}
         >
           <p>About Me</p>
         </Link>{" "}
-        <Link to="Contact" spy={true} smooth={true} offset={-70} duration={500}>
-          <p>Contact Me</p>
+        <Link to="Contact" spy={true} smooth={true} offset={-0} duration={500}>
+          <p>Contact</p>
         </Link>
       </HorizontalGrid>
     </Navbar>
